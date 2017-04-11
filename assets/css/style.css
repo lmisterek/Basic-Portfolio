@@ -50,8 +50,27 @@ header {
 	border-bottom: 6px solid #cccccc;
 }
 
+.text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+ .myclass {
+       
+    }
+
 #container {
 	border-color: #dddddd;
+	margin-bottom: 2em;
 
 }
 
@@ -86,6 +105,7 @@ header {
 .contentHeader {
 	color:  #4aaaa5;
 	border-bottom: 3px solid #cccccc;
+	margin-bottom: 1em;
 }
 
 #container {
@@ -107,6 +127,7 @@ header {
 	color: #fff;
 	font-size: 50%;
 }
+
 
 .footer {
 	background-color: #666666;
