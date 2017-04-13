@@ -5,8 +5,19 @@
 	margin: 0;
 }
 
-html, body {
-	height: 100%;
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	margin: 0 0 5em;
+	background-image: url("pixel_weave/pixel_weave.png");
+}
+
+
+header, footer {
+  flex: none; /* 2 */
 }
 
 
@@ -64,10 +75,6 @@ textarea {
     box-sizing: border-box;
 }
 
- .myclass {
-       
-    }
-
 #container {
 	border-color: #dddddd;
 	margin-bottom: 2em;
@@ -100,18 +107,23 @@ textarea {
 
 .content {
 	margin-top: 3em;
+	margin-bottom: 2em;
+	flex: 1;
+
 }
 
 .contentHeader {
 	color:  #4aaaa5;
 	border-bottom: 3px solid #cccccc;
 	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
-#container {
+.container {
 	width: 50%;
 	margin-left: 10%;
 	float: left;
+	margin-bottom: 10%;
 }
 
 #sidebar {
@@ -128,6 +140,52 @@ textarea {
 	font-size: 50%;
 }
 
+#form {
+	margin-bottom: 
+}
+
+
+
+
+.button {
+	background-color: #4aaaa5; /* aqua */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+input, textarea {
+	border-color: #D3D3D3;
+}
+
+.projects {
+	width: 40%;
+	height: 20%;
+	margin: 10px 30px -30px 10px;
+	float: left;
+}
+
+.projectlinks {
+	width: 100%;
+	position: relative;
+    left: 0px;
+    top: -80px;
+    z-index: -1;
+}
+
+.labels {
+  color: white;
+  text-align: center;
+  background-color: #4aaaa5;
+  width: 100%;
+  height: 2em;
+  padding-top: 1em;
+}
 
 .footer {
 	background-color: #666666;
@@ -136,5 +194,8 @@ textarea {
 	width: 100%;
 	border-top: 6px solid #4aaaa5;
   	position: absolute;
+  	left: 0;
   	bottom: 0;
+
+
 }

@@ -6,10 +6,11 @@
 	<meta charset="utf-8">
 
 	<!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
 </head>
-<body background="assets/images/pixel_weave/pixel_weave.png">
+<body>
 	
 	<div>
 		<!-- This is the navigation bar and owner's name-->
@@ -28,10 +29,10 @@
 		<!-- This is where the contact form will go -->
 
 			<div class="content">
-				<section id="container">
+				<section class="container">
 					<h2 class="contentHeader"> Contact </h2>
 				
-					<form>
+				<form id="form">
 					Name<br>
 					<input type="text" class="text" name="name" value="John Smith">
 					<br>
@@ -43,8 +44,11 @@
 					<br>
 					<textarea name="message">Enter text here.. </textarea>
 					<br>
-					<input type="submit">
-					</form>
+					
+					<input class="button" type="button" value="Submit"> 
+				</form>
+
+
 				</section>
 			</div>
 
@@ -54,9 +58,9 @@
 				<h3> Connect with Me </h3>
 
 				<div id="socialLinks">
-					<a href="https://github.com/lmisterek" target="_blank"><img id="gitHub" src="assets/images/GitHub-Mark-120px-plus.png"></img></a>
-					<a href="https://www.linkedin.com/in/leeanna-misterek-6a51a093/" target="_blank"><img id="linkedIn" src="assets/images/Linked_in.png"></img></a>
-					<a href="http://stackoverflow.com/users/7803081/leeanna-misterek" target="_blank"	><img id="stackOverflow" src="assets/images/so-icon.png"></img></a>
+					<a href="https://github.com/lmisterek" target="_blank"> <img alt="Github Icon" id="gitHub" src="assets/images/GitHub-Mark-120px-plus.png"></a>
+					<a href="https://www.linkedin.com/in/leeanna-misterek-6a51a093/" target="_blank"><img alt="Linked in Icon" id="linkedIn" src="assets/images/Linked_in.png"></a>
+					<a href="http://stackoverflow.com/users/7803081/leeanna-misterek" target="_blank"><img alt="Stack Over flow Icon" id="stackOverflow" src="assets/images/so-icon.png"></a>
 				</div>
 			</div>
 
